@@ -18,6 +18,11 @@
 		E8DCDE4F2A78F4E3003D97DD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DCDE4E2A78F4E3003D97DD /* Constants.swift */; };
 		E8DCDE512A78F51E003D97DD /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8DCDE502A78F51E003D97DD /* Colors.xcassets */; };
 		E8DCDE532A78F52D003D97DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8DCDE522A78F52D003D97DD /* Images.xcassets */; };
+		E8DCDE552A7906F3003D97DD /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DCDE542A7906F3003D97DD /* ProfileModel.swift */; };
+		E8DCDE612A795B33003D97DD /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DCDE602A795B33003D97DD /* UINavigationController+Extension.swift */; };
+		E8DCDE632A797ECF003D97DD /* ColectionViewCellRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DCDE622A797ECF003D97DD /* ColectionViewCellRow.swift */; };
+		E8DCDE6A2A7995D0003D97DD /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DCDE692A7995D0003D97DD /* UIViewController+Extension.swift */; };
+		E8DCDE6C2A799768003D97DD /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DCDE6B2A799768003D97DD /* ProfileViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +39,11 @@
 		E8DCDE4E2A78F4E3003D97DD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E8DCDE502A78F51E003D97DD /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		E8DCDE522A78F52D003D97DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E8DCDE542A7906F3003D97DD /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		E8DCDE602A795B33003D97DD /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		E8DCDE622A797ECF003D97DD /* ColectionViewCellRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColectionViewCellRow.swift; sourceTree = "<group>"; };
+		E8DCDE692A7995D0003D97DD /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		E8DCDE6B2A799768003D97DD /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +78,7 @@
 			children = (
 				E8DCDE432A78EF3C003D97DD /* Application */,
 				E8DCDE442A78EF4F003D97DD /* Modules */,
+				E8DCDE5F2A795B06003D97DD /* Extensions */,
 				E8DCDE462A78EF88003D97DD /* Resources */,
 			);
 			path = "profile-app";
@@ -94,6 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				E8DCDE332A78ED27003D97DD /* ProfileViewController.swift */,
+				E8DCDE6B2A799768003D97DD /* ProfileViewModel.swift */,
+				E8DCDE542A7906F3003D97DD /* ProfileModel.swift */,
+				E8DCDE622A797ECF003D97DD /* ColectionViewCellRow.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -120,6 +134,15 @@
 				E8DCDE4A2A78F1F6003D97DD /* SFProDisplay-Regular.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E8DCDE5F2A795B06003D97DD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E8DCDE602A795B33003D97DD /* UINavigationController+Extension.swift */,
+				E8DCDE692A7995D0003D97DD /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,10 +220,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8DCDE552A7906F3003D97DD /* ProfileModel.swift in Sources */,
 				E8DCDE342A78ED27003D97DD /* ProfileViewController.swift in Sources */,
+				E8DCDE632A797ECF003D97DD /* ColectionViewCellRow.swift in Sources */,
+				E8DCDE6C2A799768003D97DD /* ProfileViewModel.swift in Sources */,
 				E8DCDE302A78ED27003D97DD /* AppDelegate.swift in Sources */,
 				E8DCDE322A78ED27003D97DD /* SceneDelegate.swift in Sources */,
+				E8DCDE612A795B33003D97DD /* UINavigationController+Extension.swift in Sources */,
 				E8DCDE4F2A78F4E3003D97DD /* Constants.swift in Sources */,
+				E8DCDE6A2A7995D0003D97DD /* UIViewController+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

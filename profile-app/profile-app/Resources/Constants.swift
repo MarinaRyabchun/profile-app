@@ -21,19 +21,20 @@ enum Constants{
     }
     enum Fonts{
         static var header: UIFont? {
-            UIFont(name: "Graphik-Bold", size: 24)
+            UIFont(name: "SFProDisplay-Bold", size: 24)
         }
         static var title: UIFont? {
-            UIFont(name: "Graphik-Bold", size: 16)
+            UIFont(name: "SFProDisplay-Bold", size: 16)
         }
         static var subTitle: UIFont? {
-            UIFont(name: "Graphik-Medium", size: 16)
+            UIFont(name: "SFProDisplay-Medium", size: 16)
         }
         static var text: UIFont? {
-            UIFont(name: "Graphik-Regular", size: 14)
+            UIFont(name: "SFProDisplay-Regular", size: 14)
         }
     }
     enum Image {
+        static let defaultPhoto = "defaultPhoto"
         static let photoProfile = "photoProfile"
         static let iconPencil = "iconPencil"
         static let iconLocation = "iconLocation"
